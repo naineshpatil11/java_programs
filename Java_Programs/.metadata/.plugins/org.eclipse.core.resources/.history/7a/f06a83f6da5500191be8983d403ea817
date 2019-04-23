@@ -1,0 +1,97 @@
+/*
+ * Purpose: To print the percentage of Win and Loss.
+ * @author: Nainesh R Patil.
+ * 
+ */
+package com.bridgelabz.functional;
+import java.util.Random;
+import java.util.Scanner;
+
+public class Gambler7
+{
+	public static void main(String[] args) 
+	{
+	/*{
+			
+		    Random ran = new Random();
+			Scanner sc = new Scanner(System.in);
+			int bets=0,wins=0,stack,goal,n;
+			//int stake = 0,goal = 0,n = 0,i = 0;
+			//float bets = 0,wins = 0, trails = 0;
+			try 
+			{
+				System.out.print("Enter Stake amount :");
+				stack= sc.nextInt();
+				System.out.print("Enter goal amount:");
+				goal = sc.nextInt();
+				System.out.print("Enter number of times to gamble:");
+				int n1 = sc.nextInt();
+				
+				for (int i = 0; i < n1; i++)
+				{
+					int cash=stack;
+					while(cash>0 && cash<goal)
+					{
+						bets++;
+					}
+					 if(Math.random()<0.5)
+					 {
+						cash++;
+					 }
+					 else 
+					 {
+						 cash--;
+					 }
+					
+					 if(cash == goal)
+					 {
+						 wins++;
+					 }
+				}
+			
+				
+			}
+			System.out.println("Win Percentage :"+((wins/n)*100));
+			System.out.println("Loss Percentage :"+((bets/n)*100));
+			catch (Exception e) 
+			{
+				System.out.println("Input is wrong");
+			}
+	}*/
+		
+		
+		    	// Take number from the user
+		    	Scanner sc=new Scanner(System.in);
+		    	System.out.println("Enter a no of stack: ");
+		    	int stake  = sc.nextInt();  
+		    	System.out.println("Enter no of goal: ");
+		    	int goal   = sc.nextInt(); 
+		    	System.out.println("Entet no of trial: ");
+		        int trials =sc.nextInt();   
+		        int bets = 0;        
+		        int wins = 0;         
+		        // repeat trials times
+		        for (int i = 0; i < trials; i++) 
+		        {
+		            // do one gambler's ruin simulation
+		            int cash = stake;
+		            while (cash > 0 && cash < goal) 
+		            {
+		                bets++;
+		                if (Math.random() < 0.5) 
+		                	cash++;     // win $1
+		                else                     
+		                	cash--;     // lose $1
+		            }
+		            if (cash == goal)
+		            	wins++;                
+		        }
+		        sc.close();
+
+		       
+		        System.out.println(wins + " wins of " + trials);
+		        System.out.println("Percent of games won = " + 100.0 * wins / trials);
+		        System.out.println("Avg # bets           = " + 1.0 * bets / trials);
+		    }
+}
+

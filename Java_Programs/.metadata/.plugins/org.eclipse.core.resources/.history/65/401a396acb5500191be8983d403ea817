@@ -1,0 +1,52 @@
+package com.bridgelabz.functional;
+
+import java.util.Scanner;
+
+public class Quadratic15 
+{
+	public static void main(String[] args) 
+	  {
+		 int delta;
+		 float x,y;
+		 Scanner s=new Scanner(System.in);
+		 System.out.println("Enter the value of coefficient of a^x,bx & c of equation: ");
+		 int a=s.nextInt();
+		 int b=s.nextInt();
+		 int c=s.nextInt();
+		 if(a==0)
+		 {
+			 System.out.println("Equation is not quadratic: ");
+		 }
+		 delta=(b*b)-(4*a*c);
+		 
+		/*
+		 * if(delta<0) { System.out.println("Both roots are imaginary"); }
+		 */
+		 if(delta==0)
+		 {
+			 System.out.println("Both roots are same");
+			 x=-b/(2*a);
+			 System.out.println("Root is "+x);
+		 }
+		System.out.println(delta);
+		 if(delta>0)
+		 {
+			 System.out.println(b+" "+a);
+			 System.out.println("Both roots are real and distinct");
+			 //x=(-b+(sqrt(delta)))/(2*a);
+			 //y=(-b-(sqrt(delta)))/(2*a);
+			 
+			 x = (int)((-b+(Math.sqrt(delta)))/(2*a));
+			 y = (int)((-b-(Math.sqrt(delta)))/(2*a));
+			 System.out.println("Roots are: "+x);
+			 System.out.println(+y);
+		 }
+		  
+	  }
+
+	private static int sqrt(int delta) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

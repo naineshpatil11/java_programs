@@ -1,0 +1,16 @@
+package com.bridgelabz.designpatterns;
+
+public class EnumSingleton 
+{
+
+}
+enum Abcde
+{
+	INSTANCE;
+	int i;
+	public void show()
+	{
+		
+
+	}
+}

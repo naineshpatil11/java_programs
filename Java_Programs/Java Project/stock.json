@@ -1,0 +1,6 @@
+{
+	Stock:[
+			{ sharename: L&T, nshare:50, shareprise: 75 },
+			{ sharename: HSC,nshare:40,shareprice:80 }		
+	 	  ]
+}

@@ -1,0 +1,38 @@
+package com.bridgelabz.objectoriented.DekOfCards;
+
+import java.util.Random;
+
+public class Util 
+{
+
+	public static String[][] cardDistribute() 
+	{
+		String arr[][] = new String[4][9];
+		cardInsert(arr);
+		cardShuffle(arr);
+		String playercard[][] = new String[4][13];
+		for(int i = 0; i < playercard.length; i++)
+		{
+			for(int j = 0; j < playercard[i].length; j++)
+			{
+				playercard[i][j] = arr[i][j];
+			}
+			//return playercard;
+		}
+		return playercard;
+		
+	//	Random random = new Random();
+		
+	}
+
+	private static void cardInsert(String[][] arr) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void cardShuffle(String[][] arr) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

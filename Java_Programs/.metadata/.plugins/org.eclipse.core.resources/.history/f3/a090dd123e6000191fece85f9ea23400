@@ -1,0 +1,6 @@
+package com.bridgelabz.objectoriented.DekOfCards;
+
+public interface QList<T> 
+{
+
+}

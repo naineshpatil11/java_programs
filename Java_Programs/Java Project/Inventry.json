@@ -1,0 +1,25 @@
+{
+	"Rice":
+			[
+				
+					{"name": "Basmati","weight": "2","price": "40"},
+					{"name": "Brown","weight":"5kg","price":"55"}
+					
+			],
+			
+	"Pulses":
+			[
+				
+					{"name": "cowpea","weight": "10kg","price":"60"},
+					{"name": "lentils","weight": "15kg","price": "80"}
+				
+			],
+		
+	"Wheat":
+			[
+				
+					{"name": "spelt","weight": "50kg","price": "30"},
+					{"name": "emmer","weight": "50kg","price": "45"}
+				
+			]
+}

@@ -1,0 +1,24 @@
+package com.bridgelabz.datastructure;
+
+import java.util.Scanner;
+
+public class PrimeAnagramStack 
+{
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter the first number");
+		int first=s.nextInt();
+		System.out.println("Enter last numbre");
+		int last=s.nextInt();
+		System.out.println("The prime numbers bet the given range are: ");
+		primeandAnagram(first,last);
+		
+	}
+
+	public static void primeandAnagram(int first, int last) 
+	{
+	
+		
+	}
+}

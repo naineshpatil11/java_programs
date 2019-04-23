@@ -1,0 +1,130 @@
+package com.bridgelabz.datastructure;
+
+import java.util.Scanner;
+
+public class Utility 
+{
+	public static int hashFunction(int n) 
+	{
+		int rem=n%11;
+		return rem;
+	}
+	
+	//to check number is prime or not
+	private static boolean isPrime(int i)
+	{
+		//for(int i=0;i<n;i++)
+		//return false;
+		
+		int n=0 ;
+		if (n <= 1)  //e.g n=15
+		{  
+			return false;  
+		} 
+		for(int i1=2; i1<=n/2; i1++)
+	     {
+ 
+			int rem=n%i1;
+			if(rem==0)
+			{
+				return false;
+			}
+			
+	     }
+		return true;
+	}
+	
+	//to check no is prime or not in bet range
+	public static int[] PrimeNumber(int range) 
+	{
+		boolean isPrime = true;
+		int count = 0;
+		int primeno[]=new int[range];		   
+		for (int i = 0; i <= range; i++)         
+		{ 		  
+			for(int j=2; j<i ;j++)
+			{
+				if(i%j==0)
+				{
+					isPrime=false;
+					break;
+				}
+				else 	
+					isPrime=true;
+			}
+			if(isPrime==true)
+				primeno[count++]=i;
+		}
+		return primeno ;		     
+	}
+	
+	//to represent the range
+	static Scanner sc=new Scanner(System.in);
+	public static int[][] firstNPrimes() 
+	
+	{
+		int prime[][]=new int[10][25];
+		
+			int f1=0, f2=0, f3=0, f4=0, f5=0, f6=0, f7=0, f8=0, f9=0, f10=0;
+			for(int i=2; i<=1000; i++)
+			{
+				boolean pm=isPrime(i);	
+				if(pm)
+				{
+					if(i<100)
+					{
+						
+						prime[0][f1]=i;
+						f1++;
+					}
+					else if(i<200)
+					{
+						prime[1][f2]=i;
+						f2++;
+					}
+					else if(i<300)
+					{
+						prime[2][f3]=i;
+						f3++;
+					}
+					else if(i<400)
+					{
+						prime[3][f4]=i;
+						f4++;
+					}
+					else if(i<500)
+					{
+						prime[4][f5]=i;
+						f5++;
+					}
+					else if(i<600)
+					{
+						prime[5][f6]=i;
+						f6++;
+					}
+					else if(i<700)
+					{
+						prime[6][f7]=i;
+						f7++;
+					}
+					else if(i<800)
+					{
+						prime[7][f8]=i;
+						f8++;
+					}
+					else if(i<900)
+					{
+						prime[8][f9]=i;
+						f9++;
+					}
+					else
+					{
+						prime[9][f10]=i;
+						f10++;
+					}
+				}
+			
+			}
+			return prime;
+	  }
+}

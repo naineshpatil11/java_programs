@@ -1,0 +1,6 @@
+package com.designpatterns.factorypattern;
+
+public interface GeometricShape 
+{
+	void draw();
+}

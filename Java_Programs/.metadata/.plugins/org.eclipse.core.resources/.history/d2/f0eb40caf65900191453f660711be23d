@@ -1,0 +1,26 @@
+package com.bridgelabz.datastructure;
+
+import java.util.Scanner;
+
+public class Rough {
+	public static void main(String[] args)
+	{
+		String str = "";
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a number: ");
+		int n = sc.nextInt();
+		//boolean b = Utility.isPrime(n);
+		Utility.isPrime(n);
+		
+		if(b);
+		
+		{
+			System.out.println("prime");
+		}
+		else 
+		{
+			System.out.println("not prime");
+		}
+	*/
+	 }
+}

@@ -1,0 +1,20 @@
+package com.designpatterns.prototype;
+
+public class Demo 
+{
+	public static void main(String[] args) throws CloneNotSupportedException 
+	{
+		BookShop bs = new BookShop();
+		bs.setShopename("Royalty");
+		bs.loadData();
+		System.out.println(bs);
+		
+		
+		BookShop bs1 = (BookShop)bs.clone();
+		bs1.setShopename("Bazar");
+		//bs1.loadData();
+		System.out.println(bs1);
+		
+		
+	}
+}

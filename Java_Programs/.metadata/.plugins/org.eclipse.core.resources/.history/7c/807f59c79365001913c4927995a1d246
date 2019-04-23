@@ -1,0 +1,25 @@
+package com.bridgelabz.designpatterns;
+
+public class LazyInitialization 
+{
+	public static void main(String[] args)
+	{
+		//System.out.println("Hiii");
+		//Abc obj1 = Abc.getInstance();
+		Ab obj2 = Ab.getInstance();
+		//System.out.println("Hello");
+	}
+}
+class Ab
+{
+	static Abc obj;
+	private Ab()
+	{
+		//System.out.println("Instance get");
+	}
+	public static Ab getInstance()
+	{
+		return obj;
+	}
+}
+

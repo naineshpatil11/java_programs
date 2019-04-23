@@ -1,0 +1,80 @@
+package com.bridgelabz.datastructure;
+/**
+ * @author 
+ * purpose 
+ * 
+ */
+public class Stack<T> 
+{
+	int capacity=10;
+	private Object[] stack = new Object[capacity];
+	private int top=0;
+	
+	//function to push the value in stack
+	public void push(T data) 
+	{
+		// checks for cpapcity of array
+		if (top == capacity) 
+		{
+			expand();
+		}
+		// puts data in stack
+		stack[top] = data;
+		top++;
+	}
+	
+	
+	public T pop() 
+	{
+		if (isEmpty()) 
+		{
+			System.err.println("stack is empty");
+			return null;
+		}
+		else 
+		{
+			T data = (T) stack[--top];
+			stack[top] = null;
+			return data;
+		}
+	}
+	//return the last value stored in stack without changing
+	public T peek() 
+	{
+		return (T) stack[top];
+	}
+	//to check function is empty or not
+	public boolean isEmpty() 
+	{
+		return top == 0;
+    }
+	//return the size of stack
+	public int size() 
+	{
+		return top;
+	}
+	//function to expand stack if capacity is reached
+	private void expand() 
+	{
+		Object[] newStack = new Object[capacity * 2];
+		System.arraycopy(stack, 0, newStack, 0, top);
+		capacity *= 2;
+		stack = newStack;
+	}
+	//function to give element in stack as string
+	public String toString() 
+	{
+		StringBuilder sb = new StringBuilder();
+		sb.append("{ ");
+		for (int i = 0; i < top; i++) 
+		{
+			sb.append(stack[i]);
+			sb.append(", ");
+		}
+		sb.append("}");
+		return sb.toString();
+	}
+
+}
+	
+

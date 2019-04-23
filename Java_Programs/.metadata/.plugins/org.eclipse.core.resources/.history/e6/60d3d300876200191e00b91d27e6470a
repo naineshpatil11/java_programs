@@ -1,0 +1,9 @@
+package com.designpatterns.factorypattern;
+
+public class Line 
+{
+	public void draw()
+	{
+		System.out.println("Line draw ");
+	}
+}

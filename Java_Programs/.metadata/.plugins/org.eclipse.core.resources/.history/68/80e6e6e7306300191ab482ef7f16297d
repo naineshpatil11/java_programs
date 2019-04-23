@@ -1,0 +1,12 @@
+package com.designpatterns;
+
+public class PilotPen {
+	
+	public void markstr(String str)
+	{
+		
+		
+		System.out.println(str);
+	}
+	
+}

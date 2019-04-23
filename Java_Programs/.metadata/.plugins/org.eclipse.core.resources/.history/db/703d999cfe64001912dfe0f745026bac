@@ -1,0 +1,5 @@
+package com.bridgelabz.designpatterns.mediator;
+
+public class User {
+
+}

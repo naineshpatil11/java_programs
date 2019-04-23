@@ -1,0 +1,15 @@
+package com.bridgelabz.objectoriented.commercialdataprocessing;
+
+import java.util.Scanner;
+
+public class StackLinkedList 
+{
+	String companyfilepath = "/home/admin1/Documents/Java_Programs/Java Project/Company.json";
+	String userfilepath = "/home/admin1/Documents/Java_Programs/Java Project/UserDetail.json";
+	public commercialCompanyProj companyProj = new commercialCompanyProj();
+	Scanner sc = new Scanner(System.in);
+	
+	//private CommercialCompanyProj companyPojo = new CommercialCompanyProj();
+	StackMethodasLinkedList7 stack ;
+	//CommercialQueueMethods queue;	
+}

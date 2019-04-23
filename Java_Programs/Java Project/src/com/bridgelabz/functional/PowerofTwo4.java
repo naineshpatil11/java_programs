@@ -1,0 +1,46 @@
+/*
+ *Purpose: To print the table of power of two.
+ *@author: Nainesh R Patil. 
+ */
+package com.bridgelabz.functional;
+/*
+ 
+ * 
+ * 
+ */
+import java.util.Scanner;
+
+public class PowerofTwo4
+{
+	public static void main(String[] args)
+	{
+		/*int n=5,i=0,power=1;
+		System.out.println("Table of power of 2: ");
+		while(i<=n)
+		{
+			System.out.println(power);
+			power=power*2;
+			i++;
+		}*/
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter number to find power of 2: ");
+		int p = s.nextInt();
+		while (p > 31) 
+		{
+			System.out.println("Invalid input \n Enter number less than 32");
+			p = s.nextInt();
+		}
+       Table(p);
+		
+	}
+	private static void Table(int p) 
+	 {
+			int val = 1;
+			int p1=0;
+			for (int i = 1; i <= p; i++)
+			{
+				val = val * 2;
+	            System.out.println(val);
+	        }
+     }
+}

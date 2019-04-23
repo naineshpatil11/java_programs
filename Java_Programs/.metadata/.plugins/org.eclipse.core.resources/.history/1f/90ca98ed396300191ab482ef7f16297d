@@ -1,0 +1,5 @@
+package com.designpatterns.adapter1;
+
+public class PlasticToyDuck {
+
+}

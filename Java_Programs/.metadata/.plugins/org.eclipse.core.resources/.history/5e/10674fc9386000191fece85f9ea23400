@@ -1,0 +1,12 @@
+package com.bridgelabz.objectoriented.DekOfCards;
+
+public class Util 
+{
+
+	public static int[][] cardDistribute() 
+	{
+		
+		return null;
+	}
+	
+}

@@ -1,0 +1,44 @@
+package com.bridgelabz.objectoriented;
+
+import java.io.File;
+import java.util.Scanner;
+
+import org.codehaus.jackson.JsonNode;
+import org.codehaus.jackson.map.ObjectMapper;
+
+public class StockReport 
+{
+	public static void main(String[] args) 
+	{
+		String path = "/home/admin1/Documents/Java_Programs/Java Project/stock.json";
+		File file = new File(path);
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Number of stocks are: 2");
+		
+		ObjectMapper mapper = new ObjectMapper();
+		System.out.println("hello");
+		try
+		{
+			System.out.println("Hello");
+			JsonNode mainNode = mapper.readTree(file);
+			JsonNode lock = mainNode.get("Stock");
+			System.out.println("Stock report is: ");
+			for(JsonNode node: lock)
+			{
+				String sname = node.path("sharename").asText();
+				int nshare = node.path("nshare").asInt();
+				int sprice = node.path("shareprice").asInt();
+				System.out.println("Share Name: "+sname+"\n Number of shares are: "+nshare+"\n "
+						+ "Share Price: "+sprice);
+				int total = nshare + sprice;
+				System.out.println("Total stock value is: "+total);
+			}
+		}
+		catch (Exception e) 
+		{
+			System.out.println(e);
+		}
+		
+	}
+}

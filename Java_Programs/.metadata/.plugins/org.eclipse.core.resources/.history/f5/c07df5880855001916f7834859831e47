@@ -1,0 +1,61 @@
+package com.bridgelabz.datastructure;
+
+public class Queue<string> 
+{
+	Person pers[];
+	int front, rear, size, l;
+	
+	public Queue(int n) {
+		pers = new Person[n];
+		front = rear = -1;
+		size = -1;
+		l = n;
+	}//Constructor 1 param
+	
+	/****Method to check Queue is empty or not*****/
+	public boolean isEmpty() {
+		if(front == -1 && rear == -1) 
+			return true;
+		if(front > rear) {
+			front = rear = -1;
+			return true;
+		}
+		return false;
+	}//isEmpty
+	
+	
+	/****Method to check Queue is full or not*****/
+	public boolean isFull() {
+		if(front == 0 && rear == l-1) 
+			return true;
+		return false;
+	}//isFull
+	
+	/****Method to insert element in Queue*****/
+	public void enqueue(Person p) {
+		if(isFull())
+			throw new IllegalStateException("OverFlow");
+		
+		if(isEmpty()) {
+			front = front + 1;
+			rear = rear + 1;
+			pers[front] = p;
+		}else {
+			rear = rear + 1;
+			pers[rear] = p;
+		}
+		size++;
+	}//enqueue
+	
+	
+	/*****Method to delete element in Queue*****/
+	public Person dequeue() {
+		if(isEmpty())
+			throw new IllegalStateException("UnderFlow");
+		Person temp = pers[front];
+		front++;
+		size--;
+		return temp;
+	}//dequeue
+	
+}

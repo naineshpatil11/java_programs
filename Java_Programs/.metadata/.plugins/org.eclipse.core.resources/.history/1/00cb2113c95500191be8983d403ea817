@@ -1,0 +1,44 @@
+package com.bridgelabz.functional;
+
+import java.util.Scanner;
+
+public class StringPermutation12 
+{
+	public static class GFG { 
+		  
+	    // Function to print all the permutations of str 
+	  public static void printPermu(String str, String ans) 
+	    { 
+	  
+	        // If string is empty 
+	        if (str.length() == 0) { 
+	            System.out.print(ans + " "); 
+	            return; 
+	        } 
+	  
+	        for (int i = 0; i < str.length(); i++) { 
+	  
+	            // ith character of str 
+	            char ch = str.charAt(i); 
+	  
+	            // Rest of the string after excluding  
+	            // the ith character 
+	            String ros = str.substring(0, i) +  
+	                         str.substring(i + 1); 
+	  
+	            // Recurvise call 
+	            printPermu(ros, ans + ch); 
+	        } 
+	    } 
+	  
+	    // Driver code 
+	    public static void main(String[] args) 
+	    { 
+	    	Scanner s=new Scanner(System.in);
+	    	System.out.println("Enter a string");
+	    	String n=s.next();
+	        //String s = "abb"; 
+	        printPermu(n, ""); 
+	    } 
+	} 
+}

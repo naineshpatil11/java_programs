@@ -1,0 +1,12 @@
+package com.bridgelabz.objectoriented;
+
+import java.util.Scanner;
+
+public class StockReport 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Number of stocks are: 2");
+	}
+}

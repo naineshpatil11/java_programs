@@ -1,0 +1,23 @@
+package com.bridgelabz.objectoriented.commercialdataprocessing;
+
+public class StackMethodasLinkedList7 
+{
+	int lenght;
+	Node top;
+	
+	public StackMethodasLinkedList7()
+	{
+		
+	}
+	public void show()
+	{
+		Node node = new Node();
+		while(node.next != null)
+		{
+			System.out.println(node.data);
+			node = node.next;
+		}
+		System.out.println(node.data);
+	}
+	
+}

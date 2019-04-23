@@ -1,0 +1,52 @@
+package com.bridgelabz.objectoriented.commercialdataprocessing;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Scanner;
+
+import org.json.simple.parser.ParseException;
+
+public class StackLinkedList 
+{
+	String companyfilepath = "/home/admin1/Documents/Java_Programs/Java Project/Company.json";
+	String userfilepath = "/home/admin1/Documents/Java_Programs/Java Project/UserDetail.json";
+	public commercialCompanyProj companyProj = new commercialCompanyProj();
+	Scanner sc = new Scanner(System.in);
+	
+	//private CommercialCompanyProj companyPojo = new CommercialCompanyProj();
+	StackMethodasLinkedList7 stack ;
+	//CommercialQueueMethods queue;	
+	
+	public void addDetails() throws FileNotFoundException, IOException, ParseException 
+	{
+		
+		System.out.println("Enter option you want to add: 1.Add Stocks \t 2.Add User Datail");
+		int ch = sc.nextInt();
+		switch (ch) 
+		{
+		case 1:
+			addStocks();
+			break;
+		case 2:
+			addUserDetail();
+			break;
+		default:
+			System.out.println("Enter valid input...");
+			System.out.println("You want to continue (Y/N)");
+			char ch1 = sc.next().charAt(0);
+			while(ch1 == 'Y' || ch1 =='y');
+			addDetails();
+		}
+	}
+
+	private void addStocks() {
+		// TODO Auto-generated method stub
+		
+	}
+	private void addUserDetail() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+}

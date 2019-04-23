@@ -1,0 +1,23 @@
+package com.designpatterns;
+
+public class singletonClass 
+{
+	public static void main(String[] args)
+	{
+		Abc obj1 = Abc.getInstance();
+		Abc obj2 = Abc.getInstance();
+		System.out.println("Hello");
+	}
+}
+class Abc
+{
+	static Abc obj = new Abc();
+	private Abc()
+	{
+		System.out.println("Instance get");
+	}
+	public static Abc getInstance()
+	{
+		return obj;
+	}
+}

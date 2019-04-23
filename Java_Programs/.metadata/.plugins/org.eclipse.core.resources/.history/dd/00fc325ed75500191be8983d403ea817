@@ -1,0 +1,28 @@
+package com.bridgelabz.functional;
+
+import java.util.Scanner;
+
+public class Factors6 
+{
+	public static void main(String[] args) 
+	{
+		int store = 0;
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter number");
+		int n=s.nextInt();
+		System.out.println("Factors are:");
+		for(int i=2;n>1;i++)
+		{
+			//while(n%i==0)
+			{
+				int t=n%i;
+				if(t==0)
+				    System.out.print(i+"\t");
+				//n=n/i;
+				//n--;
+			}
+			
+		}
+	//System.out.println("Factors are:"+store);
+	}
+}

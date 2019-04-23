@@ -1,0 +1,16 @@
+package com.bridgelabz.datastructure;
+
+import java.util.Scanner;
+
+public class WeekDay
+{
+	public static void main(String[] args)
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter a month");
+		int m=s.nextInt();
+		System.out.println("Enter a year");
+		int yr=s.nextInt();
+		QueueForCalender.QueueCalender(m,yr);
+	}
+}

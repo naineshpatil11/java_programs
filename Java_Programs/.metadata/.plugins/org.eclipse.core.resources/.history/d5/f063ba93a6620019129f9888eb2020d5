@@ -1,0 +1,12 @@
+package com.designpatterns.prototype;
+
+public class Demo 
+{
+	public static void main(String[] args) 
+	{
+		BookShop bs = new BookShop();
+		bs.setShopename("Royalty");
+		System.out.println(bs);
+		
+	}
+}

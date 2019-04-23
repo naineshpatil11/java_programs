@@ -1,0 +1,12 @@
+package com.bridgelabz.objectoriented.DekOfCards;
+
+public class Queue<T> 
+{
+
+	public void enqueue(String playercard)
+	{
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

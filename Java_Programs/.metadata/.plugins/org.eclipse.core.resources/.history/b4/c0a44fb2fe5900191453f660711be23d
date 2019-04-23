@@ -1,0 +1,59 @@
+package com.bridgelabz.datastructure;
+
+import java.util.Scanner;
+
+public class PrimeAnagramQueue14
+{
+	public static void main(String[] args)
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter the first number");
+		int first=s.nextInt();
+		System.out.println("Enter the last numbre");
+		int last=s.nextInt();
+		System.out.println("Prime number bet given range is: ");
+		primeandAnagram(first,last);
+	}
+
+	static int counter=0;
+//	 static QueueForAnagram qt=new QueueForAnagram();
+	public static void primeandAnagram(int first, int last)
+	{
+		
+		//array to store the prime number
+		int arr[]=new int[last];
+		
+		//fine prime number bet range
+		for(int i=first;i<last;i++)
+		{
+			if(Utility.isPrime(i))
+			{
+				arr[counter]=i;//insert element if it prime
+				counter++;
+			}
+		}
+		
+		//print prime number
+		System.out.println("Prime numbers are: ");
+		for(int k=0;k<counter;k++)
+		{
+			System.out.println(arr[k]);
+		}
+		System.out.println("The prime and anagram numbers are: ");
+		for(int j=0;j<counter;j++)
+		{
+			int reverse=Utility.anagram(arr[j]);
+			{
+				for(int k=0;k<counter;k++)
+				{
+					if(arr[k]==reverse)
+					{
+					//	qt.insertAtEnd(arr[j]);
+					//	qt.insertAtEnd(reverse);
+						
+					}
+				}
+			}
+		}
+	}
+}

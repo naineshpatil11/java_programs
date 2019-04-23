@@ -1,0 +1,9 @@
+package com.designpatterns;
+
+public class singletonClass 
+{
+	public static void main(String[] args)
+	{
+		
+	}
+}

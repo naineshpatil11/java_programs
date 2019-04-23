@@ -1,0 +1,25 @@
+package com.designpatterns.prototype;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class BookShop
+{
+	private int shopename;
+	List<Book> book = new ArrayList<>();
+	
+	public int getShopename() {
+		return shopename;
+	}
+	public void setShopename(int shopename) {
+		this.shopename = shopename;
+	}
+	public List<Book> getBook() {
+		return book;
+	}
+	public void setBook(List<Book> book) {
+		this.book = book;
+	}
+	
+	
+}
