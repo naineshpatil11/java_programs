@@ -41,9 +41,9 @@ public class BookShop implements Cloneable
 	
 	{
 		BookShop shop = new BookShop();
-		for(Book b = this.getBook())
+	//	for(Book b = this.getBook())
 		{
-			shop = getBook().add(b);
+	//		shop = getBook().add(b);
 		}
 		return shop;
 	}

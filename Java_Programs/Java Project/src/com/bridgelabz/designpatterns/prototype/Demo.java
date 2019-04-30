@@ -14,7 +14,7 @@ public class Demo
 		BookShop bs1 = bs.clone();
 		bs1.setShopename("Bazar");
 		bs.getBook().remove(2);
-		//bs1.loadData();
+		bs1.loadData();
 		System.out.println(bs1);
 		
 		

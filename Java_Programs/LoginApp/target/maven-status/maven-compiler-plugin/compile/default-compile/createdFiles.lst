@@ -1,0 +1,5 @@
+com/controller/Registration.class
+com/hibernate/Hibernate.class
+com/dao/BaseDao.class
+com/model/Users.class
+com/dao/BaseDaoImpl.class

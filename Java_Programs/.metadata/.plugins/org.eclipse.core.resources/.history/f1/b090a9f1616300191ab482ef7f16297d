@@ -1,6 +1,0 @@
-package com.designpatterns.proxy;
-
-public interface Image 
-{
-	public void display();
-}

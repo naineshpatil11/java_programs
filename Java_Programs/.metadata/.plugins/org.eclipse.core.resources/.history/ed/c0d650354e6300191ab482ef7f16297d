@@ -1,9 +1,0 @@
-package com.designpatterns.factory;
-
-public interface MobileShop 
-{
-	public void modelNO();
-	public void price();
-	
-	
-}

@@ -1,0 +1,23 @@
+package com.hibernate;
+
+import org.apache.jasper.tagplugins.jstl.core.Catch;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class Hibernet1 
+{
+	private static final SessionFactory sessionfactory
+	try
+	{
+		sessionfactory = new Configuration().configure().buildSessionFactory();
+	}
+	  Catch(Throwable exception)
+	{
+		System.out.println("session factory field "+exception);
+		throw new ExceptionInInitializerError();
+	}
+	public static SessionFactory getSessionFactory;
+	{
+		return sessionfactory;
+	}
+}

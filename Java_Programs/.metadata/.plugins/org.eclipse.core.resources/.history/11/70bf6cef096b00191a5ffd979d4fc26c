@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+
+</head>
+<body>
+	<h4 style="color:green; text-align:center;">Welcome to BridgeLabz</h4>
+	
+	
+
+	<p><input type="submit" value="Login">
+   			<a href="login.jsp">Login</a> &nbsp;&nbsp; New User Register Here
+   		<input type="submit" value="Register">
+   			<a href="register.jsp">Register</a>	
+   	</p>
+   	</center>
+   
+</body>
+</html>

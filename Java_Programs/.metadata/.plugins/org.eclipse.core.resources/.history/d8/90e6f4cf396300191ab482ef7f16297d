@@ -1,5 +1,0 @@
-package com.designpatterns.adapter1;
-
-public interface ToyDuck {
-
-}

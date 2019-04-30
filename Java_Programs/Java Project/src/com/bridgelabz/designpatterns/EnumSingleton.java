@@ -10,7 +10,7 @@ public class EnumSingleton
 		
 		Abcde obj2 = Abcde.INSTANCE;
 		obj2.i = 8;
-		obj2.show();
+		obj1.show();
 	}
 }
 enum Abcde

@@ -1,0 +1,51 @@
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+ <form action="register" method="post">
+   <h1 style="text-align: center";>Registration Form</h1>
+   <table align="center">
+   		<tr><td>First Name</td>
+   		    <td><input type="text" name="fname"></td>   
+   		    
+   		<tr><td>Last Name </td>
+   		    <td><input type="text" name="lname"></td>   
+   		    
+   		<tr><td>Email</td>
+   			<td><input type="text" name="email"></td>  
+   		</tr>
+   		
+   		<tr><td>Date of Birth</td>
+   			<td><input type="text" name="dob"></td>
+   		
+   		<tr><td>Mobile No</td>
+   			<td><input type="text" name="mno"> 
+   		</tr>
+   		
+   		<tr><td>Password</td>
+   			<td><input type="password" name="psw"></td>
+   		</tr>
+   		
+   		<tr><td>Confirm Password </td>
+   			<td><input type="password" name="cpsw"></td>
+   		</tr>
+   		</table> 
+   		
+   		<a href="register.jsp" align="register">
+   		<input type="submit" value="Register"></a>
+   			
+  
+   </form>
+    
+</body>
+<style type="text/css">
+
+h1 {color : green
+}
+table {color: black
+}
+body {
+	background-color: skyblue;
+}
+</style>

@@ -1,7 +1,0 @@
-package com.designpatterns.adapter;
-
-public interface Pen 
-{
-	public void write();
-	
-}

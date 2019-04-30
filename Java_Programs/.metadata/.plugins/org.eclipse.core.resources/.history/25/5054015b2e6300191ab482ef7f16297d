@@ -1,9 +1,0 @@
-package com.designpatterns.adapter;
-
-public class AssignmentWork 
-{
-	public void writeAssignment(String str)
-	{
-		
-	}
-}

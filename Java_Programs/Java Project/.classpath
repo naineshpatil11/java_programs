@@ -6,7 +6,7 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/user/Downloads/jackson-all-1.9.0.jar"/>
-	<classpathentry kind="lib" path="/home/user/Downloads/json-simple-1.1.jar"/>
+	<classpathentry kind="lib" path="/home/user/Downloads/JarsFile/jackson-all-1.9.0.jar"/>
+	<classpathentry kind="lib" path="/home/user/Downloads/JarsFile/json-simple-1.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
