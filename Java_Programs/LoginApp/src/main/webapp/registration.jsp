@@ -7,13 +7,13 @@
 </head>
 <body align="center">
 	<h1 align="center">Registration Page</h1>
-	<form method="post" action="Registration">
+	<form method="post" action="registration" >
 	
 		<table align="center">
 			<tr>
 				<td>Enter UserName<sup>*</sup></td>
 				<td>:</td>
-				<td><input type="text" name="Username" required
+				<td><input type="text" name="uname" required
 					placeholder="max 5-20 characters">
 			</tr>
 			<tr>
@@ -48,7 +48,7 @@
 			<tr>
 				<td>Enter PhoneNumber<sup>*</sup></td>
 				<td>:</td>
-				<td><input type="text" name="phoneNum" required
+				<td><input type="text" name="phoneNo" required
 					placeholder="+91***********">
 			</tr>
 			<tr>

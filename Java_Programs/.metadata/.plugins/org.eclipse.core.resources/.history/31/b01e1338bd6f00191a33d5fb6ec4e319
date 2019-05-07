@@ -1,0 +1,34 @@
+package com.bridgelabz.controller;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+public class RegisterServlets extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+  
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+	{
+		response.setContentType("text/html");
+		PrintWriter out = response.getWriter();
+		
+		String uname = request.getParameter("uname");
+		String fn =  request.getParameter("fName");
+		String ln = request.getParameter("lName");
+		String psw = request.getParameter("password");
+		String cpsw = request.getParameter("cpassword");
+		String e = request.getParameter("email");
+		String p = request.getParameter("phoneNum");
+		String dob = request.getParameter("dob");
+		response.getWriter().append("Served at: ").append(request.getContextPath());
+	}
+
+
+
+
+}

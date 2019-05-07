@@ -1,0 +1,21 @@
+package com.bridgelabz.controller;
+
+import java.io.IOException;
+@WebServlet ("/forget")
+public class ForgetServlet extends HttpServlet
+{
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException 
+	{
+		String userName = req.getParameter("uname");
+		Dao dao = new Dao();
+		dao.setPassword(userName);
+		}
+		@Override
+		protected void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException 
+		{
+			doGet(req, res);
+		}
+}
+
+

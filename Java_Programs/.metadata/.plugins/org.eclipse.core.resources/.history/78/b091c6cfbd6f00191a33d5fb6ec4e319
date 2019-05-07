@@ -1,0 +1,15 @@
+package com.bridgelabz.pojo;
+
+public class Student 
+{
+	 private String username;
+	 private String fName;
+	 private String lName;
+	 private String password;
+	 private String cPassword;
+	 private String email;
+	 private String phoneNo;
+	 private String dob;
+	
+	
+}

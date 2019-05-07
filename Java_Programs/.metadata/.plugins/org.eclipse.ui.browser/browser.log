@@ -5,3 +5,98 @@ Apr 30, 2019 19:28:48.94 [24292:24292:0430/192848.945756:ERROR:sandbox_linux.cc(
 Apr 30, 2019 19:28:49.09 Opening in existing browser session.
 Apr 30, 2019 19:40:51.34 Opening in existing browser session.
 Apr 30, 2019 19:45:19.56 Opening in existing browser session.
+
+Apr 30, 2019 20:01:02.84 NEW SESSION
+Apr 30, 2019 20:01:02.84 [25820:25820:0430/200102.837252:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+Apr 30, 2019 20:01:02.85 Opening in existing browser session.
+
+May 02, 2019 11:28:27.41 NEW SESSION
+May 02, 2019 11:28:27.41 [5022:5022:0502/112827.408983:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 02, 2019 11:28:28.17 [4977:4977:0502/112828.178630:ERROR:x11_input_method_context_impl_gtk.cc(144)] Not implemented reached in virtual void libgtkui::X11InputMethodContextImplGtk::SetSurroundingText(const base::string16 &, const gfx::Range &)
+May 02, 2019 11:32:47.31 [5404:5404:0502/113247.310253:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 02, 2019 11:32:47.64 [5366:5366:0502/113247.645171:ERROR:x11_input_method_context_impl_gtk.cc(144)] Not implemented reached in virtual void libgtkui::X11InputMethodContextImplGtk::SetSurroundingText(const base::string16 &, const gfx::Range &)
+May 02, 2019 11:37:59.14 [5869:5869:0502/113759.148410:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 02, 2019 11:37:59.46 [5832:5832:0502/113759.463711:ERROR:x11_input_method_context_impl_gtk.cc(144)] Not implemented reached in virtual void libgtkui::X11InputMethodContextImplGtk::SetSurroundingText(const base::string16 &, const gfx::Range &)
+May 02, 2019 11:42:01.51 [6284:6284:0502/114201.516262:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 02, 2019 11:42:01.90 Opening in existing browser session.
+May 02, 2019 11:46:02.84 Opening in existing browser session.
+May 02, 2019 11:54:25.23 [7445:7445:0502/115425.232354:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 02, 2019 11:54:25.33 Opening in existing browser session.
+May 02, 2019 12:04:10.14 [7821:7821:0502/120410.144457:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 02, 2019 12:04:10.40 Opening in existing browser session.
+May 02, 2019 12:42:00.11 [8494:8494:0502/124200.115237:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 02, 2019 12:42:00.41 Opening in existing browser session.
+
+May 04, 2019 18:52:08.90 NEW SESSION
+May 04, 2019 18:52:08.90 Opening in existing browser session.
+
+May 06, 2019 09:38:31.58 NEW SESSION
+May 06, 2019 09:38:31.58 [4635:4635:0506/093831.579933:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 06, 2019 09:38:32.20 [4589:4589:0506/093832.208868:ERROR:x11_input_method_context_impl_gtk.cc(144)] Not implemented reached in virtual void libgtkui::X11InputMethodContextImplGtk::SetSurroundingText(const base::string16 &, const gfx::Range &)
+May 06, 2019 09:41:19.72 [4937:4937:0506/094119.722017:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 06, 2019 09:41:19.83 Opening in existing browser session.
+May 06, 2019 09:46:40.97 Opening in existing browser session.
+May 06, 2019 09:59:48.01 Opening in existing browser session.
+May 06, 2019 10:13:45.19 Opening in existing browser session.
+May 06, 2019 11:09:38.52 Opening in existing browser session.
+May 06, 2019 11:23:02.49 Opening in existing browser session.
+May 06, 2019 11:29:41.87 Opening in existing browser session.
+May 06, 2019 11:34:23.71 [4635:4695:0506/113423.718442:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+May 06, 2019 11:36:17.00 Opening in existing browser session.
+May 06, 2019 11:41:33.56 Opening in existing browser session.
+May 06, 2019 11:46:51.31 Opening in existing browser session.
+May 06, 2019 11:51:46.48 Opening in existing browser session.
+May 06, 2019 11:55:20.12 [12168:12168:0506/115520.120274:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 06, 2019 11:55:20.20 Opening in existing browser session.
+May 06, 2019 12:24:46.23 Opening in existing browser session.
+May 06, 2019 12:31:31.01 Opening in existing browser session.
+May 06, 2019 12:32:07.66 Opening in existing browser session.
+May 06, 2019 12:53:16.80 [14078:14078:0506/125316.801712:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 06, 2019 12:53:16.87 Opening in existing browser session.
+May 06, 2019 12:53:53.45 [14293:14293:0506/125353.456232:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 06, 2019 12:53:53.71 Opening in existing browser session.
+May 06, 2019 12:54:13.52 Opening in existing browser session.
+May 06, 2019 12:58:43.60 Opening in existing browser session.
+May 06, 2019 14:15:25.16 Opening in existing browser session.
+May 06, 2019 14:23:01.21 [15841:15841:0506/142301.211239:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 06, 2019 14:23:01.23 Opening in existing browser session.
+May 06, 2019 14:24:01.18 Opening in existing browser session.
+May 06, 2019 14:24:45.58 [16214:16214:0506/142445.585781:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 06, 2019 14:24:45.88 Opening in existing browser session.
+May 06, 2019 14:26:34.62 Opening in existing browser session.
+May 06, 2019 14:33:32.16 [4589:4611:0506/143332.165048:ERROR:ssl_client_socket_impl.cc(1013)] handshake failed; returned -1, SSL error code 1, net_error -100
+May 06, 2019 14:53:49.43 Opening in existing browser session.
+May 06, 2019 14:55:49.91 [17355:17355:0506/145549.910438:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 06, 2019 14:55:49.92 Opening in existing browser session.
+May 06, 2019 14:58:24.58 [17626:17626:0506/145824.583630:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 06, 2019 14:58:24.83 Opening in existing browser session.
+May 06, 2019 15:03:47.19 [17929:17929:0506/150347.193783:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 06, 2019 15:03:47.41 Opening in existing browser session.
+May 06, 2019 15:06:57.84 Opening in existing browser session.
+May 06, 2019 15:11:28.46 [18465:18465:0506/151128.462784:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 06, 2019 15:11:28.74 Opening in existing browser session.
+May 06, 2019 15:11:56.09 Opening in existing browser session.
+May 06, 2019 15:14:00.57 Opening in existing browser session.
+May 06, 2019 15:14:54.32 Opening in existing browser session.
+May 06, 2019 15:19:27.30 Opening in existing browser session.
+May 06, 2019 15:20:54.85 [19487:19487:0506/152054.850483:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 06, 2019 15:20:54.93 Opening in existing browser session.
+May 06, 2019 15:30:37.10 [19880:19880:0506/153037.100675:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 06, 2019 15:30:37.15 Opening in existing browser session.
+May 06, 2019 15:35:57.67 [20211:20211:0506/153557.678146:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 06, 2019 15:35:57.71 Opening in existing browser session.
+May 06, 2019 15:40:12.60 Opening in existing browser session.
+May 06, 2019 17:06:57.20 [22434:22434:0506/170657.207892:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 06, 2019 17:06:57.42 Opening in existing browser session.
+May 06, 2019 17:22:34.83 [22806:22806:0506/172234.834225:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 06, 2019 17:22:34.91 Opening in existing browser session.
+May 06, 2019 17:25:42.55 Opening in existing browser session.
+May 06, 2019 17:42:53.22 [23556:23556:0506/174253.229206:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 06, 2019 17:42:53.52 Opening in existing browser session.
+May 06, 2019 18:06:59.77 Opening in existing browser session.
+May 06, 2019 18:09:05.57 [24186:24186:0506/180905.574728:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 06, 2019 18:09:05.83 Opening in existing browser session.
+May 06, 2019 18:18:04.83 [24578:24578:0506/181804.829814:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 06, 2019 18:18:04.89 Opening in existing browser session.
+May 06, 2019 18:22:12.56 [24868:24868:0506/182212.565044:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 06, 2019 18:22:12.67 Opening in existing browser session.

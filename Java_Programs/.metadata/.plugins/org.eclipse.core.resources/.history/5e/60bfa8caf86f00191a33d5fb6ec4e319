@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>welcome To BridgeLabz</title>
+</head>
+<center>
+<body>
+<h2>Welcome To BridgeLabz</h2>
+    <a href = "login.jsp"><input type="submit" value = "LOGIN"></a>
+    <a href = "register.jsp"><input type="submit" value = "REGISTER"></a>
+	
+</body>
+</center>
+</html>

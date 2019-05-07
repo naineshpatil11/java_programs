@@ -3,13 +3,14 @@ package com.controller;
 import java.io.IOException;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.dao.BaseDaoImpl;
 import com.model.Users;
-
+@WebServlet ("/registration")
 public class Registration extends HttpServlet {
 	/**
 	 * 
@@ -20,7 +21,7 @@ public class Registration extends HttpServlet {
 			throws IOException, ServletException {
 		// PrintWriter out = response.getWriter();
 		response.setContentType("text/html");
-		String uname = request.getParameter("username");
+		String uname = request.getParameter("uname");
 		String psw = request.getParameter("password");
 		String cpsw = request.getParameter("cpword");
 		String fname = request.getParameter("firstName");

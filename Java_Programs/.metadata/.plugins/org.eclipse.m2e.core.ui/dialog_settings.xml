@@ -2,6 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/home/user/Documents/Java_Programs/FirstPro"/>
+			<item value="/home/user/Documents/Java_Programs/FirstProject/pom.xml"/>
+			<item value="/home/user/Documents/Java_Programs/LoginApp/src/main/java/com/dao"/>
 			<item value="/home/user/Documents/Java_Programs/LoginApt"/>
 			<item value="/home/user/Documents/Java_Programs/LoginApplication"/>
 			<item value="/home/user/Documents/Java_Programs/LoginApplication/src/main/java/com/controller/RegisterServlet.java"/>
@@ -32,16 +35,24 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.bridgelabz.LoginApp"/>
-			<item value="com.bridge.Shubham.Login"/>
+			<item value="com.bridge.JdbcLoginApploication"/>
+			<item value="com.bridge.LoginApplication"/>
+			<item value="com.bridge.FirstPro"/>
+			<item value="com.bridge.LoginPro"/>
+			<item value="com.bridgelabz.LoginProject"/>
+			<item value="com.bridgelabz.FirstProject"/>
 		</list>
 		<list key="groupId">
+			<item value="com.bridge"/>
 			<item value="com.bridgelabz"/>
-			<item value="com.bridge.Shubham"/>
 		</list>
 		<list key="artifactId">
-			<item value="LoginApp"/>
-			<item value="Login"/>
+			<item value="JdbcLoginApploication"/>
+			<item value="LoginApplication"/>
+			<item value="FirstPro"/>
+			<item value="LoginPro"/>
+			<item value="LoginProject "/>
+			<item value="FirstProject"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -83,5 +94,17 @@
 		<item key="height" value="554"/>
 		<item key="x" value="308"/>
 		<item key="y" value="27"/>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
 	</section>
 </section>

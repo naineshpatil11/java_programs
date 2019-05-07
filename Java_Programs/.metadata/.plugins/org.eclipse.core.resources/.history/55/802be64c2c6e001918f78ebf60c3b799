@@ -1,0 +1,38 @@
+package com.bridgelabz.functional;
+
+public class Triplet10
+{
+	public static void main(String[] args) 
+	{
+		try 
+		{
+			int a[]= {-5,3,6,2,8,-7};
+		while(a.length!=0)
+		{
+			for(int j=0;j<=a.length;j++)
+			{
+				int fno=a[j];
+				for(int k = j+1;k<=a.length;k++)
+				{
+					int sno=a[k];
+					for(int l=k+1;l<=a.length;l++)
+					{
+						int tno=a[l];
+						int sum=fno+sno+tno;
+						if(sum==0)
+						System.out.println("Triplet: "+fno+","+sno+","+tno);
+					}
+					
+				}
+				System.out.println("\n");
+			}
+		}
+		}
+		catch (Exception e) 
+		{
+		//System.out.println(e);
+		}
+		
+	}
+}
+
