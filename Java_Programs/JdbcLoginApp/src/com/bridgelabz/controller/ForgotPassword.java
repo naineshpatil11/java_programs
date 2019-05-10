@@ -45,7 +45,6 @@ public class ForgotPassword extends HttpServlet {
 					System.out.println("Try Again..");
 					RequestDispatcher rd  = request.getRequestDispatcher("forgot.jsp");
 				}
-				
 			}		
 			else
 			{
@@ -53,7 +52,6 @@ public class ForgotPassword extends HttpServlet {
 				RequestDispatcher rd = request.getRequestDispatcher("login.jsp");
 				rd.forward(request, response);
 			}
-			
 		}
 		catch (Exception e) {
 			System.out.println(e);

@@ -17,18 +17,18 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/user/Downloads/JarsFile/apache-tomcat-8.5.40/lib/annotations-api.jar"/>
-	<classpathentry kind="lib" path="/home/user/Downloads/JarsFile/apache-tomcat-8.5.40/lib/catalina.jar"/>
-	<classpathentry kind="lib" path="/home/user/Downloads/JarsFile/apache-tomcat-8.5.40/lib/servlet-api.jar"/>
-	<classpathentry kind="lib" path="/home/user/Downloads/JarsFile/apache-tomcat-8.5.40/lib/tomcat-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/user/Downloads/JarsFile/apache-tomcat-8.5.40/lib/annotations-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/user/Downloads/JarsFile/apache-tomcat-8.5.40/lib/catalina.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/user/Downloads/JarsFile/apache-tomcat-8.5.40/lib/servlet-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/user/Downloads/JarsFile/apache-tomcat-8.5.40/lib/tomcat-api.jar"/>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
+			<attribute name="test" value="true"/>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
 		<attributes>
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>

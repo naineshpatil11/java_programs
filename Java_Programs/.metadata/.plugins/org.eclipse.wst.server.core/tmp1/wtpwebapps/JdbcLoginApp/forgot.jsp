@@ -11,7 +11,7 @@
 	<form action="forgot" method = "get">
 	<h3>Note: Enter your Email Id for new password</h3>
 	
-		Email <input type = "text" name = "email"><br>
+		Email <input type = "email" name = "email"><br>
 		New Password <input type="password" name = "password"><br>
 		Confirm Password <input type="password" name="cpass">
 	

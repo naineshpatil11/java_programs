@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.designpatterns.PilotPen"/>
-<fullyQualifiedTypeName name="com.designpatterns.adapter.PenAdapter"/>
-<fullyQualifiedTypeName name="com.designpatterns.adapter1.ToyDuck"/>
-<fullyQualifiedTypeName name="com.designpatterns.facade.Iphone"/>
-<fullyQualifiedTypeName name="com.designpatterns.facade.Samsung"/>
-<fullyQualifiedTypeName name="com.designpatterns.facade.Blackberry"/>
-<fullyQualifiedTypeName name="com.designpatterns.facade.MobileShop"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="com.designpatterns.facade.ShopKeeper"/>
-<fullyQualifiedTypeName name="com.designpatterns.proxy.Image"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="com.bridgelabz.designpatterns.observer.Observer"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="com.bridgelabz.designpatterns.observer.Customer"/>
-<fullyQualifiedTypeName name="com.bridgelabz.designpatterns.observer.Product"/>
-<fullyQualifiedTypeName name="com.bridgelabz.designpatterns.observer.Subject"/>
-<fullyQualifiedTypeName name="com.bridgelabz.designpatterns.visitor.ComputerPart"/>
 <fullyQualifiedTypeName name="com.bridgelabz.designpatterns.visitor.ComputerPartVisitor"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="java.lang.Runnable"/>
 <fullyQualifiedTypeName name="com.bridgelabz.designpatterns.Abcde"/>
@@ -29,7 +10,6 @@
 <fullyQualifiedTypeName name="org.apache.coyote.http11.Http11AprProtocol"/>
 <fullyQualifiedTypeName name="com.web.Alien"/>
 <fullyQualifiedTypeName name="javax.transaction.Transaction"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="com.dao.RegisterDao"/>
 <fullyQualifiedTypeName name="com.model.RegisterBean"/>
 <fullyQualifiedTypeName name="com.dao.BaseDaoImpl"/>
@@ -56,8 +36,28 @@
 <fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="java.sql.DriverManager"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-<fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="com.bridgelabz.objectoriented.addressbook.Manager"/>
+<fullyQualifiedTypeName name="org.codehaus.jackson.map.JsonMappingException"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="org.json.simple.parser.ParseException"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+<fullyQualifiedTypeName name="java.util.regex.Matcher"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+<fullyQualifiedTypeName name="org.codehaus.jackson.map.ObjectMapper"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="org.codehaus.jackson.type.TypeReference"/>
 </qualifiedTypeNameHistroy>

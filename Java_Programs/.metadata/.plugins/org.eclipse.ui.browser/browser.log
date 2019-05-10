@@ -100,3 +100,18 @@ May 06, 2019 18:18:04.83 [24578:24578:0506/181804.829814:ERROR:sandbox_linux.cc(
 May 06, 2019 18:18:04.89 Opening in existing browser session.
 May 06, 2019 18:22:12.56 [24868:24868:0506/182212.565044:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
 May 06, 2019 18:22:12.67 Opening in existing browser session.
+
+May 08, 2019 10:23:22.85 NEW SESSION
+May 08, 2019 10:23:22.85 [4781:4781:0508/102322.854523:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 08, 2019 10:23:24.09 [4737:4737:0508/102324.087306:ERROR:x11_input_method_context_impl_gtk.cc(144)] Not implemented reached in virtual void libgtkui::X11InputMethodContextImplGtk::SetSurroundingText(const base::string16 &, const gfx::Range &)
+May 08, 2019 14:49:33.19 [9297:9297:0508/144933.193038:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 08, 2019 14:49:33.32 Opening in existing browser session.
+May 08, 2019 14:53:08.55 [9564:9564:0508/145308.559015:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 08, 2019 14:53:08.71 Opening in existing browser session.
+
+May 10, 2019 17:33:53.56 NEW SESSION
+May 10, 2019 17:33:53.56 [6898:6898:0510/173353.560050:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 10, 2019 17:33:55.45 [6855:6855:0510/173355.450702:ERROR:x11_input_method_context_impl_gtk.cc(144)] Not implemented reached in virtual void libgtkui::X11InputMethodContextImplGtk::SetSurroundingText(const base::string16 &, const gfx::Range &)
+May 10, 2019 17:36:09.82 [7221:7221:0510/173609.820542:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 10, 2019 17:36:10.09 Opening in existing browser session.
+May 10, 2019 19:06:18.01 Opening in existing browser session.

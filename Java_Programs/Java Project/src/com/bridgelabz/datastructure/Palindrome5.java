@@ -8,7 +8,7 @@ public class Palindrome5
 	{
 		Scanner sc = new Scanner(System.in);	 
 		System.out.print("Enter string: ");
-		String s=sc.next();
+		String s =sc.next();
 		char c[]= s.toCharArray();
 		Dequeue<Object> m=new Dequeue<Object>(c.length);	 
 		for(int i=c.length-1 ; i>=0 ;i--)

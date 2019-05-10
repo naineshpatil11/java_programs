@@ -1,0 +1,11 @@
+127.0.0.1 - - [10/May/2019:17:33:51 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [10/May/2019:17:33:56 +0530] "GET /JdbcLoginApp/ HTTP/1.1" 200 317
+0:0:0:0:0:0:0:1 - - [10/May/2019:17:33:57 +0530] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [10/May/2019:17:33:58 +0530] "GET /JdbcLoginApp/login.jsp HTTP/1.1" 200 475
+0:0:0:0:0:0:0:1 - - [10/May/2019:17:34:07 +0530] "POST /JdbcLoginApp/login HTTP/1.1" 200 317
+0:0:0:0:0:0:0:1 - - [10/May/2019:17:34:15 +0530] "GET /JdbcLoginApp/login.jsp HTTP/1.1" 200 475
+0:0:0:0:0:0:0:1 - - [10/May/2019:17:34:20 +0530] "POST /JdbcLoginApp/login HTTP/1.1" 200 317
+0:0:0:0:0:0:0:1 - - [10/May/2019:17:36:09 +0530] "GET /JdbcLoginApp/ HTTP/1.1" 200 317
+0:0:0:0:0:0:0:1 - - [10/May/2019:17:36:10 +0530] "GET /JdbcLoginApp/login.jsp HTTP/1.1" 200 475
+0:0:0:0:0:0:0:1 - - [10/May/2019:17:38:46 +0530] "POST /JdbcLoginApp/login HTTP/1.1" 200 22
+0:0:0:0:0:0:0:1 - - [10/May/2019:19:06:18 +0530] "GET /JdbcLoginApp/ HTTP/1.1" 200 317

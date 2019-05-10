@@ -36,7 +36,7 @@ public class CashCounter4
 		{
 			System.out.println("Welcome: person no: "+ i);
 
-		//	System.out.println("\n"+"The Current QUEUE is: "+ m.toString());
+			//System.out.println("\n"+"The Current QUEUE is: "+ m.toString());
 
 			System.out.println("Please choose the option: \n1. Deposit \n2. Withdraw");
 			int ch =sc.nextInt();

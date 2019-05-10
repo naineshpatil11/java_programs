@@ -9,7 +9,7 @@
 <body>
 
 < align="center">
-		<form action="register" method="post">
+		<form action="register" method="post" onsubmit="return validation();">
 			<table align="center" border="1">
 				<tr>
 					<td colspan="2" align="center"><b>User Registration</b></td>
@@ -49,6 +49,15 @@
 				</tr>
 			</table>
 		</form>
-
+<div name = "eresult" style="col"></div>
+function validation()
+{
+	var name = document.getElementByName("username").value;
+	if(username.length < 2)
+	{
+		document.getElementByName("eresult").innerHTML="Name must be at least 2 charecter";
+		return false;		
+	}
+}
 </body>
 </html>

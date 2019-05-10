@@ -10,7 +10,7 @@
 <h2 >Welcome To BridgeLabz</h2>
     <a href = "login.jsp"><input type="submit" value = "LOGIN"></a>
     <a href = "register.jsp"><input type="submit" value = "REGISTER"></a>
-	
+	 
 </body>
 </center>
 </html>
